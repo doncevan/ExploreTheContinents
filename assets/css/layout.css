@@ -3,23 +3,23 @@
 @import url("navbar.css");
 
 blockquote {
-  font: italic bold 1.3em Arial, sans-serif;
+  font: italic bold 1.5em Arial, sans-serif;
   margin: 20px;
   padding: 10px;
   border-left: 5px solid #5f5d5d;
   background: #eae8e8;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
   blockquote {
-    font-size: 1.0em;
+    font-size: 1.3em;
     padding: 0.1em 10px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   blockquote {
-    font-size: .8em;
+    font-size: 1.0em;
     padding: 0.1em 5px;
   }
 }
