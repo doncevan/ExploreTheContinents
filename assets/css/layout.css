@@ -1,0 +1,147 @@
+@import url("reset.css");
+@import url("typography.css");
+@import url("navbar.css");
+
+blockquote {
+  font: italic bold 1.3em Arial, sans-serif;
+  margin: 20px;
+  padding: 10px;
+  border-left: 5px solid #5f5d5d;
+  background: #eae8e8;
+}
+
+@media (max-width: 768px) {
+  blockquote {
+    font-size: 1.0em;
+    padding: 0.1em 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  blockquote {
+    font-size: .8em;
+    padding: 0.1em 5px;
+  }
+}
+
+div p {
+  display: inline;
+  padding-left: 80px;
+
+}
+
+.blog-posts {
+  background: url("../images/map.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.blog-post-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.blog-post-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-post {
+  padding: 25px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.related-articles {
+  margin-top: 40px;
+}
+
+.related-articles ul {
+  list-style: none;
+}
+
+.related-articles li {
+  margin-bottom: 10px;
+}
+
+.subscribe-form {
+  margin-top: 40px;
+}
+
+.subscribe-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-form label {
+  margin-bottom: 5px;
+}
+
+.subscribe-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.subscribe-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#social-sharing {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#social-sharing h2 {
+  padding: 10px;
+}
+
+#social-sharing ul {
+  list-style: none;
+  padding: 0;
+}
+
+#social-sharing ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+#social-sharing ul li a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0073b1;
+  padding: 9px 10px;
+  border-radius: 5px;
+}
+
+#social-sharing ul li a:hover {
+  opacity: 0.8;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.about-content,
+.subscribe-form {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
